@@ -1,0 +1,145 @@
+.bottom_box {
+ position: relative;
+  width: 100%;
+  top: 60rpx;
+  background: rgb(255, 128, 109);
+}
+
+.happy_conter {
+  width: 100%;
+    position: relative;
+  top: 60rpx;
+}
+
+.happy_box {
+  padding: 30rpx;
+  /* height: 75%; */
+  border-radius: 20rpx;
+  background: rgb(255, 243, 240);
+
+  
+  width: 92%;
+  /* margin: auto; */
+  /* margin-bottom: 118rpx; */
+}
+
+.img_box {
+  width: 100%;
+  height: 260rpx;
+  border-radius: 15rpx;
+  border: 1px solid rgb(255, 128, 109);
+}
+
+.img_box>image {
+  width: 100%;
+  height: 100%;
+}
+
+.task_test {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+.task_test_list {
+  width: 100%;
+  position: relative;
+}
+
+.task_test_conter {
+  width: 100%;
+}
+
+.xian {
+  border-left: 1rpx solid rgb(255, 128, 109);
+  height: 100%;
+  position: absolute;
+  left: 18rpx;
+}
+
+.task_test_caption {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 30rpx;
+  justify-content: space-between;
+}
+.task_test_caption2{
+    width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 30rpx;
+}
+.radius {
+  width: 37rpx;
+  height: 37rpx;
+  background: rgb(251, 85, 84);
+  border-radius: 30rpx;
+  color: white;
+  font-size: 22rpx;
+  text-align: center;
+  line-height: 37rpx;
+  z-index:1000;
+  margin-right: 10rpx;
+}
+
+.task_test_lv {
+  color: #81511C;
+  font-size: 24rpx;
+  font-weight: bold;
+}
+
+.dashed {
+  border-top: 1px dashed gainsboro;
+  width: 39%;
+}
+
+.pai {
+  display: flex;
+  align-items: center;
+}
+
+.pai>image {
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.pai>view {
+  color: rgb(255, 128, 109);
+  font-size: 24rpx;
+  font-weight: bold;
+}
+
+.getMoney {
+  padding: 2rpx 16rpx;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  background: rgb(251, 85, 84);
+  color: white;
+  margin-left: 10rpx;
+}
+
+.radius_gray{
+  width: 30rpx;
+  height: 30rpx;
+}
+.go_play{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top:60rpx;
+}
+.go_play>view{
+  border-radius: 30rpx;
+  height: 50rpx;
+  width: 400rpx;
+  background: rgb(250,76,75);
+  color: rgb(255,243,240);
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 50rpx;
+}

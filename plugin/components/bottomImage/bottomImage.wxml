@@ -1,0 +1,4 @@
+<view class='buttom_box'>
+  <image mode='aspectFit' class='buttom_img1' src='http://api.pantaoapp.com/img/mp/gift.png'></image>
+  <image class='buttom_img2' src='http://api.pantaoapp.com/img/mp/bottom_banner.png' mode='aspectFill'></image>
+</view>

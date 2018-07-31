@@ -1,0 +1,8 @@
+<view class='box'>
+  <view class='aa'>
+    <view wx:for='{{name}}' catchtap='goGame' data-index='{{index}}' wx:key='{{index}}'>{{item}}</view>
+  </view>
+  <view wx:if='{{isShowComponents == 0}}'   data-index='0' class='components'><strategy bindgoIntegral="goIntegral"  /> </view>
+  <view wx:if='{{isShowComponents == 1}}' data-index='1' class='components'><integral/></view>
+  <view wx:if='{{isShowComponents == 2}}'  data-index='2' class='components'><mytask/></view>
+</view>

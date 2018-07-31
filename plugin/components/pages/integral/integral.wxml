@@ -1,0 +1,58 @@
+<view class='happy_conter'>
+  <view class='happy_box'>
+    <view class='img_box'>
+      <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+    </view>
+    <view class='task_test'>试玩任务</view>
+    <view class='task_test_list'>
+      <view class='xian'></view>
+      <view class='task_test_conter'>
+        <block wx:for='{{4}}' wx:key='{{index}}'>
+          <view class='task_test_caption'>
+            <view class='radius'>1</view>
+            <view class='task_test_lv'>级别达到{{index}}级</view>
+            <view class='dashed'></view>
+            <view class='pai'>
+              <image src='http://api.pantaoapp.com/img/mp/pai.png'></image>
+              <view class='integral'>+10</view>
+            </view>
+            <view class='getMoney'>领取奖励</view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class='task_test'>充值福利</view>
+    <view class='task_test_list'>
+      <view class='task_test_conter'>
+        <block wx:for='{{3}}' wx:key='{{index}}'>
+          <view class='task_test_caption'>
+            <image class='radius_gray' src='http://api.pantaoapp.com/img/mp/dot_gray.png'></image>
+            <view class='task_test_lv'>级别达到{{index}}级</view>
+            <view class='dashed'></view>
+            <view class='pai'>
+              <image src='http://api.pantaoapp.com/img/mp/pai.png'></image>
+              <view class='integral'>+10</view>
+            </view>
+            <view class='getMoney'>领取奖励</view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class='task_test'>试玩策略 </view>
+    <view class='task_test_conter'>
+      <block wx:for='{{1}}' wx:key='{{index}}'>
+        <view class='task_test_caption2'>
+          <image class='radius_gray' src='http://api.pantaoapp.com/img/mp/dot_gray.png'></image>
+          <view class='task_test_lv'>撒旦是打算了的空间啊了快速电话按时到拉萨的了</view>
+        </view>
+      </block>
+    </view>
+    <view class='go_play'>
+      <view bindtap='goIntegral' data-index='{{index}}'>进入试玩</view>
+    </view>
+  </view>
+</view>
+
+<view class='bottom_box'>
+  <bottomImage/>
+</view>

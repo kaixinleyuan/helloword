@@ -1,0 +1,12 @@
+{
+	"miniprogramRoot": "./miniprogram",
+	"pluginRoot": "./plugin",
+	"compileType": "plugin",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wx9255faa3206ac34f",
+	"projectname": "Plug-in-unit",
+	"libVersion": "2.2.0",
+	"condition": {}
+}

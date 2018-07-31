@@ -1,0 +1,31 @@
+<view class='swiper_box'>
+  <swiper display-multiple-items='1.2'>
+    <block wx:for="{{imgUrls}}" wx:key='{{index}}'>
+      <swiper-item class="">
+        <view class='item_box {{index == 0 ? "right" : ""}}'>
+          <view>
+            <view class='item_img'>
+              <image src="{{item}}" class="slide-image" width="355" height="150" />
+            </view>
+            <view class='game_name'>王者荣耀</view>
+            <view class='game_title'>腾讯公平啊啊啊</view>
+            <view class='game_caption'>爱上大声大声大声道阿萨德按时大叔大叔的按时撒打倒萨大叔打算是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是是</view>
+            <view class='reward'>
+              <image class='reward_img' src='http://api.pantaoapp.com/img/mp/pai.png'></image>
+              <view>+50奖励值</view>
+            </view>
+            <view class='go_play'>
+              <view bindtap='goIntegral' data-index='{{index}}'>进入试玩</view>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<image  bindtap='goMytask' class='my_game' mode='aspectFit' src='http://api.pantaoapp.com/img/mp/my_game.png'></image>
+<!-- <image class='money'  src='http://api.pantaoapp.com/img/mp/star.png'></image>
+<image class='money2' src='http://api.pantaoapp.com/img/mp/star.png'></image> -->
+<view class='bottom_box'>
+  <bottomImage/>
+</view>

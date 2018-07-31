@@ -1,0 +1,9 @@
+{
+  "publicComponents": {
+
+  },
+  "pages": {
+    "playground": "pages/playground/playground"
+  },
+  "main": "index.js"
+}

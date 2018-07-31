@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "bottomImage": "../../components/bottomImage/bottomImage",
+    "mytask": "../../components/pages/mytask/mytask",
+    "integral": "../../components/pages/integral/integral",
+    "strategy": "../../components/pages/strategy/strategy"
+  }
+}

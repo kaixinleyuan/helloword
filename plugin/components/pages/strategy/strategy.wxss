@@ -1,0 +1,133 @@
+.bottom_box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.swiper_box {
+  width: 100%;
+  height: 100%;
+  font-family: "FZLTZHK--GBK1-0";
+}
+
+.swiper_box>swiper {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 128, 109);
+}
+
+swiper-item {
+  position: relative;
+}
+
+.item_box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 474rpx;
+  height: 819rpx;
+  border-radius: 20rpx;
+  background: rgb(255, 243, 240);
+}
+
+.item_box>view {
+  padding: 50rpx;
+  height: 100%;
+}
+
+.item_img {
+  width: 100%;
+  height: 220rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.item_img>image {
+  width: 100%;
+  height: 100%;
+}
+
+.game_name {
+  color: #000;
+  width: 100%;
+  text-align: center;
+  font-size: 37rpx;
+  font-weight: bold;
+  margin-top: 30rpx;
+}
+
+.game_title {
+  color: #626262;
+  width: 100%;
+  font-size: 31.6rpx;
+  margin-top: 20rpx;
+  text-align: center;
+}
+
+.game_caption {
+  color: #898989;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.reward {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40rpx;
+  align-items: center;
+}
+
+.reward_img {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.reward>view {
+  color: #5a2d13;
+  font-size: 22rpx;
+}
+
+.go_play {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+
+.go_play>view {
+  border-radius: 30rpx;
+  height: 50rpx;
+  width: 400rpx;
+  background: rgb(250, 76, 75);
+  color: rgb(255, 243, 240);
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+
+.right {
+  margin-left: 70rpx;
+}
+
+.my_game {
+  width: 150rpx;
+  height: 200rpx;
+  position: fixed;
+  top: 50%;
+  right: 20rpx;
+}
+
+.money {
+  position: absolute;
+  width: 96rpx;
+  height: 99rpx;
+  top: 34%;
+  left: 76rpx;
+}

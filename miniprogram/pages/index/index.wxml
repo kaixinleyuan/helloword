@@ -1,0 +1,11 @@
+
+<!-- <navigator url="plugin-private://wx9255faa3206ac34f/pages/">
+  Go to pages/integral!
+</navigator> -->
+<navigator url="plugin://myPlugin/playground">
+  Go to pages/playground!
+</navigator>
+
+
+
+ <!-- <mytask />  -->

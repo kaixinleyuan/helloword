@@ -1,0 +1,23 @@
+.buttom_box {
+  width: 100%;
+  text-align: right;
+  height: 200rpx;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttom_box>.buttom_img1 {
+  width: 200rpx;
+  height: 160rpx;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+}
+
+.buttom_box>.buttom_img2 {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  bottom: 27rpx;
+}

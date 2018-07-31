@@ -1,0 +1,56 @@
+<view class='box'>
+  <view class='conter'>
+    <!--轮播  -->
+    <swiper class='swiper' indicator-dots='{{true}}' autoplay="{{true}}">
+      <block wx:for="{{imgUrls}}" wx:key='{{index}}'>
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+    <!--正在玩  -->
+    <view class='played_friend'>
+      <view class='played_title'>正在玩的</view>
+      <scroll-view scroll-y class='played_scroll'>
+        <block wx:for='{{10}}' wx:key='{{index}}'>
+          <view class='played_msg'>
+            <view class='played_head'>
+              <view>
+                <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'></image>
+              </view>
+            </view>
+            <view class='played_name_msg'>
+              <view>
+                <view class='played_name'>海岛来了</view>
+                <view class='played_userAvater_box'>
+                  <block wx:for='{{5}}' wx:key="{{index}}">
+                    <image class='played_userAvater' src='http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'></image>
+                  </block>
+                </view>
+              </view>
+              <view class='view2'>
+                <view class='played_lv'>角色等级：18</view>
+                <view class='played_friend_num'>18位好友在玩</view>
+              </view>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+    <!--更多游戏  -->
+    <view class='played_more'>
+      <view class='played_title'>更多游戏</view>
+      <swiper class='swiper2' autoplay="{{true}}" display-multiple-items='5'>
+        <block wx:for="{{imgUrls}}" wx:key='{{index}}'>
+          <swiper-item>
+            <image src="{{item}}" class="slide-image2" />
+            <view class='played_name pd'>哈哈哈哈啊哈哈哈哈</view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <view>
+    <bottomImage/>
+  </view>
+</view>
